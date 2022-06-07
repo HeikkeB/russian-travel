@@ -1,7 +1,5 @@
 .photo-grid {
     display: grid;
-    width: 1184px;
-    height: 671px;
     margin: 0;
     padding: 0;
     gap: 16px;
