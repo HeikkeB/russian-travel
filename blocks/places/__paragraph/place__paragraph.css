@@ -5,7 +5,7 @@
     font-size: 18px;
     line-height: 1.63;
     color: #FFFFFF;
-    width: 484px;
+    max-width: 484px;
     padding: 0;
     margin: 0 0 26px 0;
 }
