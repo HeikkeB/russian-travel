@@ -9,3 +9,11 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        max-width: 330px;
+        font-size: 42px;
+        line-height: 1.1;
+    }
+}

@@ -2,8 +2,6 @@
     text-decoration: none;
     background-image: url("../../../images/cover-trains.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     cursor: pointer;
     position: relative;
@@ -33,4 +31,16 @@
     opacity: 0.8;
     cursor: pointer;
     z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__link {
+        min-height: 480px;
+    }
 }
