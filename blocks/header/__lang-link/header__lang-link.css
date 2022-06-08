@@ -8,8 +8,3 @@
     text-decoration: none;
     color: #FFFFFF;
 }
-
-.header__lang-link_active {
-    margin-right: 18px;
-    text-decoration-line: underline;
-}
