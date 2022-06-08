@@ -1,0 +1,7 @@
+.header__lang-cell {
+    margin-right: 18px;
+}
+
+.header__lang-cell:last-child {
+    margin-right: 0;
+}

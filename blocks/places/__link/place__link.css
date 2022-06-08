@@ -1,6 +1,6 @@
 .place__link {
     cursor: pointer;
-    font-family: 'Inter';
+    font-family: 'Inter', "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -8,10 +8,8 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     transition: opacity .3s ease;
-    opacity: 1;
 }
 
 .place__link:hover {
-    transition: opacity .3s ease;
     opacity: .8;
 }
