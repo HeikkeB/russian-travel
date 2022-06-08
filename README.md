@@ -4,7 +4,7 @@
 
 -----
 
-[**Russian travel**](https://heikkeb.github.io/russian-travel/)(ссылка на сайт)
+[**Russian travel**](https://heikkeb.github.io/russian-travel/) (ссылка на сайт)
 
 
 ## Описание
