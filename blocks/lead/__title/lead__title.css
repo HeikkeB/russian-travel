@@ -9,13 +9,25 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0;
-    padding: 0;
+}
+
+@media screen and (max-width: 675px) {
+    .lead__title {
+        font-size: 76px;
+    }
 }
 
 @media screen and (max-width: 568px) {
     .lead__title {
         font-size: 60px;
         line-height: 1.05;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__title {
+        font-size: 46px;
+        line-height: 1.07;
     }
 }
 
