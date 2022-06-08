@@ -3,5 +3,20 @@
     padding: 0;
     list-style: none;
     display: flex;
+}
 
+@media screen and (max-width: 568px) {
+    .footer__links {
+        flex-direction: column;
+        row-gap: 32px;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        flex-direction: column;
+        row-gap: 32px;
+        margin-bottom: 48px;
+    }
 }

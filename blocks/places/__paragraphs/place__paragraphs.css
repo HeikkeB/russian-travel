@@ -2,3 +2,9 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .place__paragraphs {
+        padding: 0 16px;
+    }
+}
