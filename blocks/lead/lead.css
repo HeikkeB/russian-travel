@@ -10,6 +10,7 @@
 @media screen and (max-width: 768px) {
     .lead {
         padding: 48px 24px 0;
+        overflow: hidden;
     }
 }
 
