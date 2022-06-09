@@ -1,4 +1,4 @@
-.place {
+.places__card {
     display: grid;
     grid-template-columns: minmax(460px, 1fr) 1.05fr;
     grid-template-rows: minmax(min-content, max-content) 1fr;
@@ -7,33 +7,46 @@
     margin-bottom: 80px;
 }
 
-.place:last-child {
+.places__card:last-child {
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 1150px) {
+    .places__card {
+        grid-template-columns: minmax(400px, 1fr) 1.05fr;
+        column-gap: 32px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
-    .place {
+    .places__card {
         grid-template-columns: minmax(440px, 1fr) 1.05fr;
         column-gap: 32px;
     }
 }
 
+@media screen and (max-width: 920px) {
+    .places__card {
+        grid-template-columns: minmax(340px, 1fr) 1.05fr;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    .place {
+    .places__card {
         column-gap: 28px;
         grid-template-columns: minmax(340px, 1fr) 1.05fr;
         margin-bottom: 73px;
     }
 }
 
-@media screen and (max-width: 675px) {
-    .place {
+@media screen and (max-width: 685px) {
+    .places__card {
         grid-template-columns: 100%;
     }
 }
 
 @media screen and (max-width: 568px) {
-    .place {
+    .places__card {
         column-gap: 30px;
         grid-template-columns: 100%;
         margin-bottom: 60px;
@@ -41,7 +54,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .place {
+    .places__card {
         row-gap: 32px;
         grid-template-columns: 100%;
         margin-bottom: 50px;

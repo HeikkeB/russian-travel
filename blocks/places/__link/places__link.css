@@ -1,4 +1,4 @@
-.place__link {
+.places__link {
     cursor: pointer;
     font-family: 'Inter', "Arial", sans-serif;
     font-style: normal;
@@ -10,6 +10,6 @@
     transition: opacity .3s ease;
 }
 
-.place__link:hover {
+.places__link:hover {
     opacity: .8;
 }
